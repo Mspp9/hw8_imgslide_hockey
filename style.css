@@ -4,3 +4,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: -moz-linear-gradient(136deg, rgb(224,195,252) 0%, rgb(142,197,252) 100%);
+}
+.wrapper
+{
+  position: relative;
+  height: 400px;
+  width: 700px;
+}
+
+.wrapper .img
+{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper .img img 
+{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
