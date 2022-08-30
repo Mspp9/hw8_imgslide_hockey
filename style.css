@@ -52,4 +52,10 @@ border: 2px solid rgb(224, 195, 252);
 margin: 0 3px;/*отступы между квадратиками*/
 cursor: pointer;
 border-radius: 50%;
+transition: all 0.3s ease;
+}
+
+.sliders label:hover
+{
+  background: rgb(224, 195, 252); /*при наведении на кнопки меняет цвет под цвет фона*/
 }
