@@ -34,17 +34,22 @@ body
   object-fit: cover;
 }
 
-.wrapper .sliders
+.wrapper .sliders /*кнопки перелистывания*/
 {
 position: absolute;
 bottom: 20px;
 left: 50%;
 transform: translateX(-50%);
+z-index: 999;
+display: flex;
 }
 
-.wrapper .sliders label
+.wrapper .sliders label /*квадратики внизу при перелистывании*/
 {
 height: 13px;
-width: 35px;
-border: 2px solid red;
+width: 13px;
+border: 2px solid rgb(224, 195, 252);
+margin: 0 3px;/*отступы между квадратиками*/
+cursor: pointer;
+border-radius: 50%;
 }
